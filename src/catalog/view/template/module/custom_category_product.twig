@@ -1,0 +1,33 @@
+{% for category in categories %}
+    <hr />
+    
+    <h2> Category Informations </h2>
+    
+    <p> Category ID:              {{ category.category_id }}  </p>
+    <p> Category Name:            {{ category.name }}         </p>
+    <p> Category Description:     {{ category.description }}  </p>
+    <p> Category Thumb Alt:       {{ category.alt }}          </p>
+    
+    <p> Category Link: <a href="{{ category.href }}"> link </a> </p>
+    <p> Category Thumb: <img width="90" height="90" src="{{ category.thumb }}" alt="{{ category.alt }}"> </p>
+
+    <h3> Category Products: </h3>
+    {% for product in category.products %}
+        <hr />
+        
+        <p> Product ID:              {{ product.product_id }}   </p>
+        <p> Product Name:            {{ product.name }}         </p>
+        <p> Product Description:     {{ product.description }}  </p>
+        <p> Product Price:           {{ product.price }}        </p>
+        <p> Product Discount:        {{ product.special }}      </p>
+        <p> Product Tax:             {{ product.tax }}          </p>
+        <p> Product Minimum:         {{ product.minimum }}      </p>
+        <p> Product Rating:          {{ product.rating }}       </p>
+        
+        <p> Product Link <a href="{{ product.href }}"> link </a> </p>
+        <p> Product Thumb: <img width="90" height="90" src="{{ product.thumb }}" alt="{{ product.name }}"> </p>
+        
+    {% endfor %}
+        
+    <hr />
+{% endfor %}
