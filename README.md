@@ -9,6 +9,16 @@ The CustomCategoryProduct OpenCart Module is a custom add-on designed for the Op
 - **Admin Interface:** User-friendly interface integrated within the OpenCart admin panel for managing categories and products.
 - **Compatibility:** Designed to work seamlessly with OpenCart 4.x and higher versions.
 
+
+## MVC Architecture
+The CustomCategoryProduct OpenCart Module is developed using the MVC (Model-View-Controller) architecture, which organizes the codebase into three interconnected components:
+
+- **Model:** Manages the data logic, handling the retrieval and manipulation of data related to custom categories and products.
+- **View:** Handles the user interface, ensuring that the custom categories and products are presented correctly in the OpenCart admin panel and on the storefront.
+- **Controller:** Facilitates the interaction between the Model and View, processing user inputs and updating the Model and View as necessary.
+
+This architecture ensures a clean separation of concerns, making the module easier to maintain, extend, and test.
+
 ## Installation
 
 1. **Upload the Module:**
