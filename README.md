@@ -1,7 +1,7 @@
 # Custom Category Product OpenCart Module
 
 ## Overview
-The CustomCategoryProduct OpenCart Module is a custom add-on designed for the OpenCart e-commerce platform. It allows administrators to manage individual product categories, offering enhanced control over product organization and display. Using this module, you can add the title, sub-heading, image, description and also the products belonging to the selected category etc. to any position of your site with the desired design. you can demonstrate.
+The Custom Category Product OpenCart Module is a custom add-on designed for the OpenCart e-commerce platform. It allows administrators to manage individual product categories, offering enhanced control over product organization and display. Using this module, you can add the title, sub-heading, image, description and also the products belonging to the selected category etc. to any position of your site with the desired design. you can demonstrate.
 
 ## Features
 - **Custom Category Management:** Easily create, modify, and delete custom categories.
@@ -11,7 +11,7 @@ The CustomCategoryProduct OpenCart Module is a custom add-on designed for the Op
 
 
 ## MVC Architecture
-The CustomCategoryProduct OpenCart Module is developed using the MVC (Model-View-Controller) architecture, which organizes the codebase into three interconnected components:
+The Custom Category Product OpenCart Module is developed using the MVC (Model-View-Controller) architecture, which organizes the codebase into three interconnected components:
 
 - **Model:** Manages the data logic, handling the retrieval and manipulation of data related to custom categories and products.
 - **View:** Handles the user interface, ensuring that the custom categories and products are presented correctly in the OpenCart admin panel and on the storefront.
@@ -27,14 +27,14 @@ This architecture ensures a clean separation of concerns, making the module easi
 
 2. **Enable the Module:**
    - Navigate to `Extensions > Extensions > Modules`.
-   - Find the `CustomCategoryProduct` module in the list and click `Install`.
+   - Find the `Custom Category Product` module in the list and click `Install`.
    - Once installed, click `Edit` to configure the module settings.
 
 ## Usage
 
 1. **Activate the Module:**
    - After installing the module, go to `Extensions > Extensions > Modules`.
-   - Find the `CustomCategoryProduct` module and click `Install`.
+   - Find the `Custom Category Product` module and click `Install`.
    - Once installed, click `Edit` to configure the module settings.
 
 2. **Create a Submodule:**
@@ -53,7 +53,7 @@ This architecture ensures a clean separation of concerns, making the module easi
 - PHP 7.1 or higher
 
 ## Uninstallation
-To remove the module, navigate to `Extensions > Extensions > Modules`, find `CustomCategoryProduct`, and click `Uninstall`. This will remove the module and all associated data from your OpenCart store.
+To remove the module, navigate to `Extensions > Extensions > Modules`, find `Custom Category Product`, and click `Uninstall`. This will remove the module and all associated data from your OpenCart store.
 
 ## License
 This module is proprietary and is intended for internal use within the company. Redistribution or use outside the company is prohibited.
